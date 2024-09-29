@@ -20,6 +20,7 @@ type Props = {
   avatarSrc?: string;
   backgroundColor?: string;
   textColor?: string;
+  feedbackInputTextColor?: string;   
   chatFeedbackStatus?: boolean;
   fontSize?: number;
   feedbackColor?: string;
