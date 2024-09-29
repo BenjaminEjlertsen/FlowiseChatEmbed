@@ -1287,6 +1287,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
                         backgroundColor={props.botMessage?.backgroundColor}
                         textColor={props.botMessage?.textColor}
                         feedbackColor={props.feedback?.color}
+                        feedbackInputTextColor={props.feedback?.feedbackInputTextColor}    
                         showAvatar={props.botMessage?.showAvatar}
                         avatarSrc={props.botMessage?.avatarSrc}
                         chatFeedbackStatus={chatFeedbackStatus()}
