@@ -6,6 +6,7 @@ type FeedbackContentDialogProps = {
   onSubmit: (text: string) => void;
   backgroundColor?: string;
   textColor?: string;
+  feedbackInputTextColor?: string; 
 };
 
 const defaultBackgroundColor = '#ffffff';
@@ -78,7 +79,7 @@ const FeedbackContentDialog = (props: FeedbackContentDialogProps) => {
                 class="block p-2.5 rounded-lg border focus:ring-blue-500 focus:border-blue-500 bg-transparent flex-1 w-full feedback-input disabled:opacity-50 disabled:cursor-not-allowed disabled:brightness-100 font-normal"
                 style={{
                   border: '1px solid #eeeeee',
-                  color: props.textColor ?? defaultTextColor,
+                  color: props.feedbackInputTextColor ?? defaultTextColor,
                 }}
                 placeholder="What do you think of the response?"
                 value={inputValue()}
