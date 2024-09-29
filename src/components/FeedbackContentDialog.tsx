@@ -37,7 +37,7 @@ const FeedbackContentDialog = (props: FeedbackContentDialogProps) => {
             class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none"
             style={{
               'background-color': props.backgroundColor ?? defaultBackgroundColor,
-              color: props.textColor ?? defaultTextColor,
+              color: props.feedbackInputTextColor ?? defaultTextColor,
             }}
           >
             <div
