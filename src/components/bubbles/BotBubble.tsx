@@ -432,6 +432,7 @@ export const BotBubble = (props: Props) => {
                 onSubmit={submitFeedbackContent}
                 backgroundColor={props.backgroundColor}
                 textColor={props.textColor}
+                feedbackInputTextColor={props.feedbackInputTextColor}
               />
             </Show>
           </>
