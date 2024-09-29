@@ -47,6 +47,7 @@ export type FooterTheme = {
 
 export type FeedbackTheme = {
   color?: string;
+  feedbackInputTextColor?: string;
 };
 
 export type ChatWindowTheme = {
