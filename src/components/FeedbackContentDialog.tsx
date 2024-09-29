@@ -37,7 +37,7 @@ const FeedbackContentDialog = (props: FeedbackContentDialogProps) => {
             class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none"
             style={{
               'background-color': props.backgroundColor ?? defaultBackgroundColor,
-              color: '#ffffff',
+              color: '#000000',
             }}
           >
             <div
@@ -79,7 +79,7 @@ const FeedbackContentDialog = (props: FeedbackContentDialogProps) => {
                 class="block p-2.5 rounded-lg border focus:ring-blue-500 focus:border-blue-500 bg-transparent flex-1 w-full feedback-input disabled:opacity-50 disabled:cursor-not-allowed disabled:brightness-100 font-normal"
                 style={{
                   border: '1px solid #eeeeee',
-                  color: '#ffffff',
+                  color: '#000000',
                 }}
                 placeholder="What do you think of the response?"
                 value={inputValue()}
